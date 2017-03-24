@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class OnHitExplod : MonoBehaviour {
+public class OnHitExplode : MonoBehaviour {
 
 	public GameObject explosion;
 
