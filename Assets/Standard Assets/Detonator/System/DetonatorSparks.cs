@@ -99,5 +99,4 @@ public class DetonatorSparks : DetonatorComponent
 			_sparksEmitter.Explode();
 		}
     }
-
 }

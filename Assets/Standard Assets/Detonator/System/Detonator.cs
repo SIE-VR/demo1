@@ -282,6 +282,9 @@ public class Detonator : MonoBehaviour {
 	private float _lastExplosionTime = 1000f;
 	void Update () 
     {
+		
+		/*
+		 * 删除了计时销毁代码 --bin
 		if (destroyTime > 0f)
 		{
 			if (_lastExplosionTime + destroyTime <= Time.time)
@@ -289,6 +292,7 @@ public class Detonator : MonoBehaviour {
 				Destroy(gameObject);
 			}
 		}
+		*/
 	}
 	
 	private bool _firstComponentUpdate = true;
